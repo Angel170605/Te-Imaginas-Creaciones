@@ -37,11 +37,10 @@ html, body { /* Estilo de la página en sí. Establece el degradado de fondo y l
     color: lightseagreen;
 }
 
-.content { /*  ESpacio blanco sobre el que va el contenido de cada apartado */
+.content { /*  Espacio blanco sobre el que va el contenido de cada apartado */
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color: white;
     border: none;
@@ -49,6 +48,12 @@ html, body { /* Estilo de la página en sí. Establece el degradado de fondo y l
     border-radius: 25px;
     margin: 10px; 
 }
+
+.section_title{ /* Son los títulos de las diferentes secciones */
+    color: lightseagreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ 
 
 /*###################################################################################################################################################*/
 /*###################################################################################################################################################*/
